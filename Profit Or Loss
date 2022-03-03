@@ -1,0 +1,12 @@
+C=int(input())
+S=int(input())
+# C= Cost price
+# S = Selling price
+if S>C:
+  print(1)
+  print(S-C)
+ else:
+  print(-1)
+  print(C-S)
+
+   
