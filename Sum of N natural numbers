@@ -1,0 +1,4 @@
+A=int(input)
+# Input number to find the sum of natural numbers upto A
+S=(A*(A+1))//2
+     print(S)
