@@ -1,0 +1,7 @@
+A=int(input())
+S=0
+i=0
+for i in range(1,A+1):
+  if i%2==0:
+      S=S+i
+ return S
