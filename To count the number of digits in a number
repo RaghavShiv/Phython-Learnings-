@@ -1,0 +1,13 @@
+T=int(input())
+    #T is the number of test cases
+    # N is the number 
+    while (T!=0):
+        count=0
+        N=int(input())
+        if ( N==0):
+            count=1
+        while (N!=0):
+            N= N//10
+            count = count + 1
+        print(count) 
+        T = T-1
