@@ -1,0 +1,15 @@
+A,B,C,D,E = map(int, input().split())
+P=(A+B+C+D+E)/5
+P=int(P)
+if P>=90:
+    print(P,"A")
+elif P>=80:
+    print(P,"B")
+elif P>=70:
+    print(P,"C")
+elif P>=60:
+    print(P,"D")
+elif P>=40:
+    print(P,"E")
+else:
+    print(P,"F")
