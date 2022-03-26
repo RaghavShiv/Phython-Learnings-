@@ -1,0 +1,8 @@
+A=int(input())
+B=int(input())
+C=int(input())
+if A+B+C == 180:
+    print(1)
+# if the output is 1 then it is a valid triangle 
+else:
+    print(0)
