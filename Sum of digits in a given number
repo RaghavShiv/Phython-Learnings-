@@ -1,0 +1,9 @@
+T=int(input())
+while (T != 0):
+    sum=0
+    N=int(input())
+    while (N != 0):
+        sum = sum + int(N%10)
+        N= int(N/10)
+    print(sum)
+    T -= 1
