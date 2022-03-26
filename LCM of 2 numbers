@@ -1,0 +1,12 @@
+A=int(input())
+        B+int(input())
+        if(A>B):
+            C=A
+        else:  
+            C=B
+        while(True):
+            if ((C % A ==0) and (C % B ==0 )):
+                break
+            else:
+                C += 1
+        print (C)
