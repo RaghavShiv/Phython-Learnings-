@@ -1,0 +1,6 @@
+A=int(input())
+N=len(A)
+for i in range (N):
+    if B ==A[i]:
+        return 1
+    return 0
