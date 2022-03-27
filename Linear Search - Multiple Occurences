@@ -1,0 +1,9 @@
+A=int(input())
+#B is the search element
+N=len(A)
+j=0
+for i in range (N):
+     if B == A[i]:
+         j += 1
+            
+return(j)
