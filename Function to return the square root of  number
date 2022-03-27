@@ -1,0 +1,10 @@
+def solve(self, A):
+        t=0
+        for i in range(1,int((A**0.5)+1)):
+            if i*i == A:
+                t=i
+        if t>0:
+            return t
+        else:
+            return -1
+            
